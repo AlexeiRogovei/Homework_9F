@@ -1,0 +1,30 @@
+import java.util.Scanner 
+public class Scanner1{ public static void main(String[] args){ 
+Scanner a=new Scanner(System.in); 
+System.out.print ("introduce-ti intervalul de timp lasand spatiu intre ore si minute"); 
+int S=a.nextInt(); 
+int SS=a.nextInt(); 
+int min=(S*60)+SS; 
+System.out.print (+S + "hr si " +SS + "min = " + min + "min
+}
+}
+import java.util.Scanner ; 
+public class Scanner2{ public static void main(String[] args){
+ Scanner b=new Scanner(System.in);
+ System.out.print ("introdu lungimile catetelor triunghiului in cm"); 
+int T=b.nextInt();
+ int U=b.nextInt();
+ int TU=(T*U+U*U);
+ System.out.println("ipotenunza este de " +Math.sqrt(TU) + "cm" ); 
+}
+}
+import java.util.Scanner ; 
+public class ChristmasTree{ public static void main(String[] args){
+ Scanner c=new Scanner(System.in); 
+System.out.print ("introdu cantitatea de fructe uscate ce doresti sa obtii in Kg si procentul pierderii"); 
+int V=c.nextInt(); 
+double W=c.nextInt(); 
+double Uscate=V/(1-W/100); 
+System.out.println("Este nevoie de " +Uscate + "kg de fructe" );
+} 
+}
